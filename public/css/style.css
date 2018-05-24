@@ -1,0 +1,22 @@
+body {
+	min-width: 320px;
+}
+.main_header {
+	margin: 50px 0 30px 0;
+}
+.day_available {
+	margin: 0 10px 0 0;
+	padding: 0 5px;
+	line-height: 20px;
+	display: inline-block;
+	background-color: #E7E7E7;
+}
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #FFFFFF url('/img/preloader.gif') no-repeat center;
+	z-index: 10;
+}
